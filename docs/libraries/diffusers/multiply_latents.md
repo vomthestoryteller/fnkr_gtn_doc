@@ -1,4 +1,4 @@
-# Multiply Latents
+﻿# Multiply Latents
 
 **두 잠재(latent) 텐서의 요소별(elementwise) 곱을 계산합니다.**
 
@@ -19,7 +19,7 @@ Latent B ─┘
 
 ## 노드 미리보기
 
-<img src="assets/nodes/multiply-latents.png" alt="Multiply Latents" width="480">
+<img src="../assets/nodes/multiply-latents.png" alt="Multiply Latents" width="480">
 
 ### 입력 (Inputs)
 

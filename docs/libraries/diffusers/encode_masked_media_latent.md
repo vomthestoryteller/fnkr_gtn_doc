@@ -1,4 +1,4 @@
-# Encode Masked Media Latent
+﻿# Encode Masked Media Latent
 
 **소스 이미지와 바이너리 마스크를 `InpaintMaskArtifact`로 인코딩합니다 — 이 입력 형식은 Generate Media Latents를 인페인팅(inpainting) 모드로 전환합니다.**
 
@@ -20,7 +20,7 @@ Paint Mask ──┘
 
 ## 노드 미리보기
 
-<img src="assets/nodes/encode-masked-media.png" alt="Encode Masked Media Latent" width="480">
+<img src="../assets/nodes/encode-masked-media.png" alt="Encode Masked Media Latent" width="480">
 
 ### 입력 (Inputs)
 
@@ -47,3 +47,4 @@ Paint Mask ──┘
 
 - [Encode Media Latent](encode_media_latent.md) — 마스크가 없는 일반 인코딩 노드.
 - [Generate Media Latents](generate_media_latents.md) — 인페인트 아티팩트를 자동으로 감지합니다.
+

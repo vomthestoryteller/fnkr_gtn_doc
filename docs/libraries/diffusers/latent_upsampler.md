@@ -1,4 +1,4 @@
-# Latent Upsampler
+﻿# Latent Upsampler
 
 **잠재 공간을 벗어나지 않고 잠재(latent) 텐서를 공간적으로 업스케일합니다 — 일반적으로 빠르고 고해상도인 정제 패스를 위해 두 Generate 단계 사이에서 사용됩니다.**
 
@@ -18,7 +18,7 @@ Generate Media Latents (저해상도) → [Latent Upsampler] → Generate Media 
 
 ## 노드 미리보기
 
-<img src="assets/nodes/latent-upsampler.png" alt="Latent Upsampler" width="480">
+<img src="../assets/nodes/latent-upsampler.png" alt="Latent Upsampler" width="480">
 
 ### 입력 (Inputs)
 

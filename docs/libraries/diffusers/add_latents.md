@@ -1,4 +1,4 @@
-# Add Latents
+﻿# Add Latents
 
 **두 개의 잠재(latent) 텐서에 대한 요소별(elementwise) 합산 연산을 수행합니다.**
 
@@ -20,7 +20,7 @@ Generate Media Latents (B) ─┘
 
 ## 노드 미리보기
 
-<img src="assets/nodes/add-latents.png" alt="Add Latents" width="480">
+<img src="../assets/nodes/add-latents.png" alt="Add Latents" width="480">
 
 ### 입력 (Inputs)
 
@@ -43,3 +43,4 @@ Generate Media Latents (B) ─┘
 ## 관련 항목
 
 - [Subtract Latents](subtract_latents.md) · [Multiply Latents](multiply_latents.md) · [Latents Composite Mask](latents_composite_mask.md)
+

@@ -1,4 +1,4 @@
-# Save Latent Tensor
+﻿# Save Latent Tensor
 
 **`LatentArtifact`를 PyTorch `.pt` 파일로 디스크에 저장합니다. 디버깅이나 오프라인 테스트 픽스처(fixture) 구축에 유용합니다.**
 

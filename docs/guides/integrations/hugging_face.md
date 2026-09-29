@@ -15,11 +15,11 @@
 1. 로봇이 아님을 증명하는 인증 단계를 완료합니다.
 
 <p align="center">
-    <img src="assets/huggingface_00_MainPage.png" alt="HF Site" width="500"/>
+    <img src="../assets/huggingface_00_MainPage.png" alt="HF Site" width="500"/>
 </p>
 
 <p align="center">
-    <img src="assets/huggingface_01_signup.png" alt="Signup" width="300"/>
+    <img src="../assets/huggingface_01_signup.png" alt="Signup" width="300"/>
 </p>
 
 ### 2. 액세스 토큰 생성 (Create an Access Token)
@@ -33,7 +33,7 @@
 1. 드롭다운 메뉴에서 **Settings**를 선택합니다(또는 [Settings](https://huggingface.co/settings/profile/)로 직접 이동).
 
     <p align="center">
-    <img src="assets/huggingface_02_Settings.png" alt="Settings" width="500"/>
+    <img src="../assets/huggingface_02_Settings.png" alt="Settings" width="500"/>
     </p>
 
 !!! warning "이메일 인증 필수"
@@ -43,7 +43,7 @@
 1. 설정 메뉴에서 **Access Tokens**로 이동합니다.
 
 <p align="center">
-  <img src="assets/huggingface_03_AccessTokens.png" alt="Access Tokens" width="500"/>
+  <img src="../assets/huggingface_03_AccessTokens.png" alt="Access Tokens" width="500"/>
 </p>
 
 1. 우측 상단 영역에서 **Create new token**을 클릭합니다.
@@ -51,14 +51,14 @@
 1. 필요한 접근 권한 유형으로 **Read**를 선택합니다.
 
 <p align="center">
-  <img src="assets/huggingface_04_TokenRead.png" alt="Token Read" width="500"/>
+  <img src="../assets/huggingface_04_TokenRead.png" alt="Token Read" width="500"/>
 </p>
 
 1. 토큰에 설명이 포함된 이름(예: GriptapeNodes)을 지정합니다.
 1. **Create Token**을 클릭합니다. 새 토큰이 포함된 창이 나타납니다. 표시된 메시지를 주의 깊게 확인하세요. 이 키를 확인하거나 복사할 수 있는 유일한 기회입니다.
 
 <p align="center">
-  <img src="assets/huggingface_05_SaveToken.png" alt="Save Token" width="400"/>
+  <img src="../assets/huggingface_05_SaveToken.png" alt="Save Token" width="400"/>
 </p>
 
 1. 토큰을 복사하여 안전하게 보관합니다.
@@ -173,7 +173,7 @@ huggingface-cli download black-forest-labs/FLUX.1-dev
     [https://huggingface.co/black-forest-labs/FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) 을 방문하여 접근 권한을 요청합니다. 요청이 성공하면 접근 권한이 부여되었다는 메시지가 표시되며 다시 다운로드를 시도할 수 있습니다.
 
     <p align="center">
-      <img src="assets/huggingface_06_gated_model.png" alt="Gated model" width="350"/>
+      <img src="../assets/huggingface_06_gated_model.png" alt="Gated model" width="350"/>
     </p>
 
 ## Griptape Nodes 설정에 토큰 추가 (Add Your Token to Griptape Nodes settings)
@@ -189,7 +189,7 @@ huggingface-cli download black-forest-labs/FLUX.1-dev
 1. **Settings**를 클릭하여 구성 옵션을 엽니다.
 
 <p align="center">
-  <img src="assets/huggingface_07_GN_Settings.png" alt="Settings Menu" width="500"/>
+  <img src="../assets/huggingface_07_GN_Settings.png" alt="Settings Menu" width="500"/>
 </p>
 
 ### 2. API Keys & Secrets에 Hugging Face 토큰 추가
@@ -201,7 +201,7 @@ huggingface-cli download black-forest-labs/FLUX.1-dev
 1. 환경설정 에디터를 닫으면 설정이 자동으로 저장됩니다.
 
 <p align="center">
-  <img src="assets/huggingface_08_GN_HFToken.png" alt="Token Configuration" width="500"/>
+  <img src="../assets/huggingface_08_GN_HFToken.png" alt="Token Configuration" width="500"/>
 </p>
 
 !!! success "설정 완료"

@@ -1,4 +1,4 @@
-# Generate Media Latents (Modular Diffusion Pipeline)
+﻿# Generate Media Latents (Modular Diffusion Pipeline)
 
 **노이즈 제거(denoising) 루프를 실행합니다. 노이즈 / 인코딩된 / 부분적으로 노이즈가 제거된 잠재 텐서를 입력받아 노이즈가 제거된 잠재 텐서를 출력합니다.**
 
@@ -19,7 +19,7 @@ Pipeline Builder → Create Noise Latents → [Generate Media Latents] → Decod
 
 ## 노드 미리보기
 
-<img src="assets/nodes/generate-media-latents.png" alt="Generate Media Latents" width="480">
+<img src="../assets/nodes/generate-media-latents.png" alt="Generate Media Latents" width="480">
 
 ### 입력 (Inputs)
 

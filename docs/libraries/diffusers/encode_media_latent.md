@@ -1,4 +1,4 @@
-# Encode Media Latent
+﻿# Encode Media Latent
 
 **이미지 또는 비디오에 대해 파이프라인의 VAE 인코더를 실행하여 Image-to-Image / Video-to-Video 워크플로우의 디노이징 단계로 전달할 수 있는 잠재 텐서를 생성합니다.**
 
@@ -21,7 +21,7 @@ Load Image → [Encode Media Latent] → Generate Media Latents → Decode Media
 
 ## 노드 미리보기
 
-<img src="assets/nodes/encode-media.png" alt="Encode Media Latent" width="480">
+<img src="../assets/nodes/encode-media.png" alt="Encode Media Latent" width="480">
 
 ### 입력 (Inputs)
 
@@ -47,3 +47,4 @@ Load Image → [Encode Media Latent] → Generate Media Latents → Decode Media
 - [Encode Masked Media Latent](encode_masked_media_latent.md) — 인페인트 변형 노드.
 - [Decode Media Latent](decode_media_latent.md) — 역연산 노드.
 - 워크플로우 템플릿: `workflows/templates/Image2Image.py`.
+

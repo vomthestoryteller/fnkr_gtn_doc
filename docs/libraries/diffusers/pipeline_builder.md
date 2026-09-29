@@ -1,4 +1,4 @@
-# Modular Diffusion Pipeline Builder
+﻿# Modular Diffusion Pipeline Builder
 
 **🧨 Diffusers 파이프라인을 한 번 로드하고 캐시하여 플로우의 다른 모든 노드가 이를 재사용할 수 있도록 합니다.**
 
@@ -19,7 +19,7 @@
 
 ## 노드 미리보기
 
-<img src="assets/nodes/pipeline-builder.png" alt="Modular Diffusion Pipeline Builder" width="480">
+<img src="../assets/nodes/pipeline-builder.png" alt="Modular Diffusion Pipeline Builder" width="480">
 
 ### 입력 (Inputs)
 

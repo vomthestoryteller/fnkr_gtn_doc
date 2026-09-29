@@ -1,4 +1,4 @@
-# Media Generation Conditioning
+﻿# Media Generation Conditioning
 
 **미디어 기반 컨디셔닝을 지원하는 모든 파이프라인에 연결할 수 있도록, 프레임별 배치 및 강도와 함께 하나 이상의 컨디셔닝 이미지(또는 비디오)를 패키징합니다.**
 
@@ -21,7 +21,7 @@ Load Image (마지막) ───┴─→ [Media Generation Conditioning] ──
 
 ## 노드 미리보기
 
-<img src="assets/nodes/media-gen-conditioning.png" alt="Media Generation Conditioning" width="480">
+<img src="../assets/nodes/media-gen-conditioning.png" alt="Media Generation Conditioning" width="480">
 
 ### 입력 (Inputs)
 

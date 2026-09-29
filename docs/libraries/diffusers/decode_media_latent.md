@@ -1,4 +1,4 @@
-# Decode Media Latent
+﻿# Decode Media Latent
 
 **잠재 텐서에 대해 파이프라인의 VAE 디코더를 실행하여 이미지 또는 비디오를 생성합니다 — 일반적으로 워크플로우의 마지막 노드입니다.**
 
@@ -17,7 +17,7 @@ Generate Media Latents → [Decode Media Latent] → Save Image / Save Video
 
 ## 노드 미리보기
 
-<img src="assets/nodes/decode-media-latent.png" alt="Decode Media Latent" width="480">
+<img src="../assets/nodes/decode-media-latent.png" alt="Decode Media Latent" width="480">
 
 ### 입력 (Inputs)
 
@@ -48,3 +48,4 @@ Generate Media Latents → [Decode Media Latent] → Save Image / Save Video
 
 - [Encode Media Latent](encode_media_latent.md) — 역연산 노드.
 - [Generate Media Latents](generate_media_latents.md) — 일반적인 업스트림 노드.
+

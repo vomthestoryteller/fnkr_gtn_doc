@@ -1,4 +1,4 @@
-# LoRA Pipeline
+﻿# LoRA Pipeline
 
 **동일한 캐시 모델이 여러 브랜치를 동시에 구동할 수 있도록 기존 파이프라인 위에 비융합(non-fused) LoRA 어댑터를 레이어링합니다.**
 
@@ -20,7 +20,7 @@ Pipeline Builder ──→ [LoRA Pipeline] ←── Load LoRA
 
 ## 노드 미리보기
 
-<img src="assets/nodes/activate-lora-pipeline.png" alt="LoRA Pipeline" width="480">
+<img src="../assets/nodes/activate-lora-pipeline.png" alt="LoRA Pipeline" width="480">
 
 ### 입력 (Inputs)
 

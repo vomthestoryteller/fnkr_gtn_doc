@@ -1,4 +1,4 @@
-# Create Noise Latents
+﻿# Create Noise Latents
 
 **연결된 파이프라인의 예상 형태(shape)와 일치하는 랜덤 노이즈 잠재 텐서를 생성합니다. 일반적인 텍스트 투 이미지(Text-to-Image) / 텍스트 투 비디오(Text-to-Video) 워크플로우의 시작점입니다.**
 
@@ -19,7 +19,7 @@ Pipeline Builder → [Create Noise Latents] → Generate Media Latents → Decod
 
 ## 노드 미리보기
 
-<img src="assets/nodes/create-noise-latents.png" alt="Create Noise Latents" width="480">
+<img src="../assets/nodes/create-noise-latents.png" alt="Create Noise Latents" width="480">
 
 ### 입력 (Inputs)
 
@@ -54,3 +54,4 @@ Pipeline Builder → [Create Noise Latents] → Generate Media Latents → Decod
 - [Create Empty Latents](empty_latents.md) — 마스크 합성 또는 특정 다단계 기법을 위한 0으로 채워진 잠재 변형.
 - [Encode Media Latent](encode_media_latent.md) — 이미지 / 비디오 → 잠재 텐서 변환.
 - [Generate Media Latents](generate_media_latents.md) — 일반적인 다운스트림 노드.
+

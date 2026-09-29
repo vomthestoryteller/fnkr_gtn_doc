@@ -1,4 +1,4 @@
-# Decode HDR Latents
+﻿# Decode HDR Latents
 
 **HDR 잠재 텐서를 디코딩하고 톤 매핑(tone mapping)을 적용하며, 선택적으로 원시 선형(raw linear) EXR 프레임 시퀀스를 내보냅니다.**
 
@@ -19,7 +19,7 @@ Generate Media Latents → [Decode HDR Latents] → Save Image / Save Video
 
 ## 노드 미리보기
 
-<img src="assets/nodes/decode-hdr-latents.png" alt="Decode HDR Latents" width="480">
+<img src="../assets/nodes/decode-hdr-latents.png" alt="Decode HDR Latents" width="480">
 
 ### 입력 (Inputs)
 
@@ -59,3 +59,4 @@ Generate Media Latents → [Decode HDR Latents] → Save Image / Save Video
 
 - [Decode Media Latent](decode_media_latent.md) — 기본 노드; 비 HDR 파이프라인에 사용됩니다.
 - [Generate Media Latents](generate_media_latents.md) — 일반적인 업스트림 노드.
+

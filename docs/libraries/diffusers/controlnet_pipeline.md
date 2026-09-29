@@ -1,4 +1,4 @@
-# ControlNet Pipeline
+﻿# ControlNet Pipeline
 
 **생성 시점에 ControlNet 입력을 받을 수 있도록 빌드된 파이프라인을 래핑(wrapping)합니다.**
 
@@ -20,7 +20,7 @@ Configure ControlNet ─┘
 
 ## 노드 미리보기
 
-<img src="assets/nodes/controlnet-pipeline.png" alt="ControlNet Pipeline" width="480">
+<img src="../assets/nodes/controlnet-pipeline.png" alt="ControlNet Pipeline" width="480">
 
 ### 입력 (Inputs)
 
@@ -49,3 +49,4 @@ Configure ControlNet ─┘
 - [Configure ControlNet](configure_controlnet.md) — 이 노드가 사용하는 `control_net` 항목을 생성합니다.
 - [Modular Diffusion Pipeline Builder](pipeline_builder.md) — 필수 업스트림 노드.
 - 워크플로우 템플릿: `workflows/templates/ControlnetText2Image.py`.
+

@@ -1,4 +1,4 @@
-# xAI Grok API 키 발급 및 사용 방법
+﻿# xAI Grok API 키 발급 및 사용 방법
 
 Grok은 xAI에서 개발한 대형 언어 모델(LLM) 제품군입니다. GrokPrompt 구성 노드를 통해 이러한 모델에 접근할 수 있습니다. 하지만 이를 사용하려면 xAI 계정이 있어야 하고 API 키를 생성해야 합니다. xAI는 유료 서비스이며 이를 이용하려면 웹사이트에서 결제 정보를 설정해야 한다는 점에 유의하세요.
 
@@ -7,7 +7,7 @@ Grok은 xAI에서 개발한 대형 언어 모델(LLM) 제품군입니다. GrokPr
 xAI 계정용 API 키를 받으려면 먼저 xAI 계정이 *필요*합니다. 시작하려면 [https://x.ai](https://x.ai) 로 이동하세요.
 
 <p align="center">
-    <img src="assets/grok_00_main_page.png" alt="Grok AI" width="500"/>
+    <img src="../assets/grok_00_main_page.png" alt="Grok AI" width="500"/>
 </p>
 
 !!! info
@@ -19,13 +19,13 @@ xAI 계정용 API 키를 받으려면 먼저 xAI 계정이 *필요*합니다. �
 1. 콘솔 로그인 옵션을 클릭하거나 [https://accounts.x.ai/sign-up](https://accounts.x.ai/sign-up) 으로 이동합니다.
 
     <p align="center">
-    <img src="assets/grok_01_console_login.png" alt="Console Login" width="500"/>
+    <img src="../assets/grok_01_console_login.png" alt="Console Login" width="500"/>
     </p>
 
 1. 가입 절차를 완료합니다. 매우 간단하게 진행할 수 있습니다.
 
     <p align="center">
-    <img src="assets/grok_02_signup.png" alt="Signup" width="500"/>
+    <img src="../assets/grok_02_signup.png" alt="Signup" width="500"/>
     </p>
 
 ### 2. 결제 정보 설정 (Set Up Billing)
@@ -37,7 +37,7 @@ xAI 계정용 API 키를 받으려면 먼저 xAI 계정이 *필요*합니다. �
     결제 설정을 완료하지 않고 xAI를 사용하는 노드를 실행하려고 하면 서비스에서 계정 자격 증명을 거부하므로 워크플로우가 실패합니다.
 
 <p align="center">
-    <img src="assets/grok_03_billing.png" alt="Billing" width="600"/>
+    <img src="../assets/grok_03_billing.png" alt="Billing" width="600"/>
 </p>
 
 ### 3. API 키 생성 (Generate an API Key)
@@ -45,19 +45,19 @@ xAI 계정용 API 키를 받으려면 먼저 xAI 계정이 *필요*합니다. �
 1. API 키 섹션으로 이동합니다. 이동할 수 있는 여러 링크가 있습니다.
 
     <p align="center">
-    <img src="assets/grok_04_key_links.png" alt="API Key links" width="600"/>
+    <img src="../assets/grok_04_key_links.png" alt="API Key links" width="600"/>
     </p>
 
 1. "Create API Key"를 클릭합니다.
 
     <p align="center">
-    <img src="assets/grok_05_create_api_key_button.png" alt="Create API Key Button" width="500"/>
+    <img src="../assets/grok_05_create_api_key_button.png" alt="Create API Key Button" width="500"/>
     </p>
 
 1. API 키의 이름을 지정합니다(추천 이름: GriptapeNodes!).
 
     <p align="center">
-    <img src="assets/grok_06_create_api_key_page.png" alt="Create API Key Page" width="500"/>
+    <img src="../assets/grok_06_create_api_key_page.png" alt="Create API Key Page" width="500"/>
     </p>
 
 1. **Save**를 클릭합니다.
@@ -87,7 +87,7 @@ xAI 계정용 API 키를 받으려면 먼저 xAI 계정이 *필요*합니다. �
 1. **Settings**를 클릭하여 구성 옵션을 엽니다.
 
     <p align="center">
-    <img src="assets/gtn_settings_menu.png" alt="Settings Menu" width="500"/>
+    <img src="../assets/gtn_settings_menu.png" alt="Settings Menu" width="500"/>
     </p>
 
 ### 2. API Keys & Secrets에 xAI API 키 추가
@@ -98,9 +98,10 @@ xAI 계정용 API 키를 받으려면 먼저 xAI 계정이 *필요*합니다. �
 1. 환경설정 에디터를 닫으면 설정이 자동으로 저장됩니다.
 
 <p align="center">
-    <img src="assets/grok_07_gtn_settings.png" alt="Grok AI API Key in Settings" width="700"/>
+    <img src="../assets/grok_07_gtn_settings.png" alt="Grok AI API Key in Settings" width="700"/>
 </p>
 
 !!! success "설정 완료"
 
     이 단계를 완료하면 자체 Grok.ai 계정 자격 증명을 통해 모델을 사용할 수 있습니다.
+

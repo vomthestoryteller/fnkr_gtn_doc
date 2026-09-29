@@ -1,4 +1,4 @@
-# Diffusers 라이브러리 (Diffusers Library)
+﻿# Diffusers 라이브러리 (Diffusers Library)
 
 모듈형 🧨 [Diffusers](https://huggingface.co/docs/diffusers/index) 파이프라인으로 유연한 미디어 생성 워크플로우를 구축하세요.
 
@@ -144,3 +144,4 @@ VRAM이 적은 환경을 위해 빌더는 **Memory Optimization Strategy** 선�
 
 버그를 발견했거나 기능 요청이 있으신가요?
 [이슈 등록(Open an issue)](https://github.com/griptape-ai/griptape-nodes-library-diffusers/issues)을 통해 알려주세요.
+

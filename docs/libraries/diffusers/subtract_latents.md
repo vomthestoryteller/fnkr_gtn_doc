@@ -1,4 +1,4 @@
-# Subtract Latents
+﻿# Subtract Latents
 
 **두 잠재(latent) 텐서의 요소별(elementwise) 차(차이)를 계산합니다.**
 
@@ -20,7 +20,7 @@ Latent B ─┘
 
 ## 노드 미리보기
 
-<img src="assets/nodes/subtract-latents.png" alt="Subtract Latents" width="480">
+<img src="../assets/nodes/subtract-latents.png" alt="Subtract Latents" width="480">
 
 ### 입력 (Inputs)
 

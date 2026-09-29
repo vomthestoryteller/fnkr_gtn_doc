@@ -1,4 +1,4 @@
-# Load LoRA
+﻿# Load LoRA
 
 **로컬 디스크에서 LoRA 파일을 로드하고 Pipeline Builder가 수락하는 출력으로 제공합니다.**
 
@@ -28,7 +28,7 @@ Pipeline Builder ──┐
 
 ## 노드 미리보기
 
-<img src="assets/nodes/load-lora.png" alt="Load LoRA" width="480">
+<img src="../assets/nodes/load-lora.png" alt="Load LoRA" width="480">
 
 ### 입력 (Inputs)
 

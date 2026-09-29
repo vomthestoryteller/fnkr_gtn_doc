@@ -1,4 +1,4 @@
-# Latents Composite Mask
+﻿# Latents Composite Mask
 
 **선택적 이미지 마스크를 통해 블렌딩하여 지정된 픽셀 오프셋 위치에서 소스 잠재 텐서를 대상 잠재 텐서 위에 합성합니다.**
 
@@ -21,7 +21,7 @@ Paint Mask (마스크) ──────┘
 
 ## 노드 미리보기
 
-<img src="assets/nodes/latents-composite-mask.png" alt="Latents Composite Mask" width="480">
+<img src="../assets/nodes/latents-composite-mask.png" alt="Latents Composite Mask" width="480">
 
 ### 입력 (Inputs)
 

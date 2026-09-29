@@ -73,3 +73,50 @@ griptape-nodes
 5. **🔗 워크플로 에디터 연결:** 브라우저에서 Griptape Nodes Workflow Editor 페이지를 새로 고칩니다. 이제 실행 중인 엔진에 연결되어야 합니다.
 
 이제 플로우를 구축할 준비가 되었습니다! 🎉 더 자세한 설정 옵션 및 문제 해결은 전체 [문서](https://docs.griptapenodes.com/?utm_source=gemini)를 참조하세요.
+
+---
+
+## 🔄 공식 영문 문서 자동 동기화 & 한글 번역 도구
+
+Upstream 공식 문서([griptape-nodes-engine](https://github.com/griptape-ai/griptape-nodes-engine))의 최신 변경사항을 감지하여 자동으로 번역하고, 메뉴 등록 및 Git Push까지 한 번에 수행할 수 있습니다.
+
+### 1. 환경 설정
+`.env` 파일에 발급받은 Gemini API Key를 설정합니다:
+```env
+GEMINI_API_KEY=AIzaSy...
+GEMINI_MODEL=gemini-3.7-flash
+AUTO_PUSH=false
+```
+
+### 2. 실행 명령어
+
+* **변경사항 미리보기 (Dry-run):**
+  ```bash
+  python sync_docs.py --dry-run
+  ```
+
+* **🖼️ 이미지 및 에셋 파일만 동기화 (API 토큰 미사용, 초고속):**
+  ```bash
+  python sync_docs.py --assets-only
+  ```
+
+* **📄 마크다운 문서만 번역 및 메뉴 등록:**
+  ```bash
+  python sync_docs.py --docs-only
+  ```
+
+* **전체 동기화 (문서 번역 + 에셋 다운로드):**
+  ```bash
+  python sync_docs.py
+  ```
+
+* **동기화 후 GitHub에 자동 커밋 & 푸시:**
+  ```bash
+  python sync_docs.py --docs-only --push
+  ```
+
+* **특정 단일 파일만 다시 번역하기:**
+  ```bash
+  python sync_docs.py --file docs/index.md
+  ```
+

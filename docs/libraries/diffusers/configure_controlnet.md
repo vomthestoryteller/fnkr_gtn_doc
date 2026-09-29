@@ -1,4 +1,4 @@
-# Configure ControlNet
+﻿# Configure ControlNet
 
 **ControlNet Pipeline 노드와 함께 사용할 단일 ControlNet 항목(모델, 제어 이미지, 컨디셔닝 강도)을 구성합니다.**
 
@@ -18,7 +18,7 @@ Load Image → [Configure ControlNet] → ControlNet Pipeline → Generate Media
 
 ## 노드 미리보기
 
-<img src="assets/nodes/configure-controlnet.png" alt="Configure ControlNet" width="480">
+<img src="../assets/nodes/configure-controlnet.png" alt="Configure ControlNet" width="480">
 
 ### 입력 (Inputs)
 
@@ -51,3 +51,4 @@ Load Image → [Configure ControlNet] → ControlNet Pipeline → Generate Media
 
 - [ControlNet Pipeline](controlnet_pipeline.md) — 필수 다운스트림 노드.
 - 워크플로우 템플릿: `workflows/templates/ControlnetText2Image.py`.
+

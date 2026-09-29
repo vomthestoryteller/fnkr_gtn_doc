@@ -1,4 +1,4 @@
-# Create Empty Latents
+﻿# Create Empty Latents
 
 **연결된 파이프라인에서 예상하는 형태(shape)의 0으로 채워진 잠재 텐서를 생성합니다.**
 
@@ -18,7 +18,7 @@ Pipeline Builder → [Create Empty Latents] → Latents Composite Mask → Gener
 
 ## 노드 미리보기
 
-<img src="assets/nodes/create-empty-latents.png" alt="Create Empty Latents" width="480">
+<img src="../assets/nodes/create-empty-latents.png" alt="Create Empty Latents" width="480">
 
 ### 입력 (Inputs)
 
@@ -50,3 +50,4 @@ Pipeline Builder → [Create Empty Latents] → Latents Composite Mask → Gener
 
 - [Create Noise Latents](create_noise_latents.md) — 일반적인 텍스트 투 이미지 / 텍스트 투 비디오 시작 텐서.
 - [Latents Composite Mask](latents_composite_mask.md) — 주요 다운스트림 노드.
+
